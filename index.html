@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <!-- Initial Animation Container -->
+    <div id="intro-container" class="intro-container">
+        <div class="flying-heart">❤️</div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-container" class="container hidden">
+        <h1 class="title">Will you be my Valentine?</h1>
+        <div class="gif-container">
+            <div class="cute-character">🐻</div>
+        </div>
+        <div class="buttons">
+            <button id="yes-btn" class="btn yes-btn">Yes</button>
+            <button id="no-btn" class="btn no-btn">No</button>
+        </div>
+    </div>
+
+    <!-- Success Popup -->
+    <div id="success-popup" class="popup hidden">
+        <div class="popup-content">
+            <h2>Yay! I knew you'd say Yes! 💖</h2>
+            <p>Get ready for a special date night!</p>
+            <div class="details">
+                <p>📍 <strong>Where:</strong> [Insert Text Here]</p>
+                <p>⏰ <strong>When:</strong> [Insert Time Here]</p>
+            </div>
+            <div class="success-character">🥰</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
